@@ -135,7 +135,7 @@
 				<PropertyValue name="TabSize">4</PropertyValue>
 				<PropertyValue name="AutoListMembers">true</PropertyValue>
 				<PropertyValue name="IndentStyle">2</PropertyValue>
-				<PropertyValue name="HideAdvancedMembers">false</PropertyValue>
+				<PropertyValue name="HideAdvancedMembers">true</PropertyValue>
 				<PropertyValue name="ShowNavigationBar">false</PropertyValue>
 				<PropertyValue name="VirtualSpace">false</PropertyValue>
 				<PropertyValue name="InsertTabs">true</PropertyValue>
@@ -1674,20 +1674,20 @@
 			<PropertyValue name="DeletedItem40.Tab">Data </PropertyValue>
 			<PropertyValue name="DeletedItem41.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem41.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem41.TabID">82846576-debb-4c1b-afbd-550a2fc5567b-WPF</PropertyValue>
-			<PropertyValue name="DeletedItem41.Tab">Tracker.Silverlight Controls</PropertyValue>
+			<PropertyValue name="DeletedItem41.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1073</PropertyValue>
+			<PropertyValue name="DeletedItem41.Tab">Validation</PropertyValue>
 			<PropertyValue name="DeletedItem42.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem42.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem42.TabID">88c1c94f-2c11-4e2c-a2a2-9a4bcb1a7464-WPF</PropertyValue>
-			<PropertyValue name="DeletedItem42.Tab">Tracker.Silverlight.Infrastructure Controls</PropertyValue>
+			<PropertyValue name="DeletedItem42.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1074</PropertyValue>
+			<PropertyValue name="DeletedItem42.Tab">Navigation</PropertyValue>
 			<PropertyValue name="DeletedItem43.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem43.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem43.TabID">5f07bee1-02fb-42d0-852d-4f097b1a0c9e-WPF</PropertyValue>
-			<PropertyValue name="DeletedItem43.Tab">Tracker.Silverlight.Workspace Controls</PropertyValue>
+			<PropertyValue name="DeletedItem43.TabID">{AFA0E707-D6D6-40DF-9D6A-6FF426DD7C64}-#1100</PropertyValue>
+			<PropertyValue name="DeletedItem43.Tab">SharePoint Workflow</PropertyValue>
 			<PropertyValue name="DeletedItem44.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem44.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem44.TabID">8f8325dc-cfd4-4ccd-b26a-9d3f61fa6346-WPF</PropertyValue>
-			<PropertyValue name="DeletedItem44.Tab">Tracker.Silverlight.HomeModules Controls</PropertyValue>
+			<PropertyValue name="DeletedItem44.TabID"/>
+			<PropertyValue name="DeletedItem44.Tab">Windows Identity Foundation Controls</PropertyValue>
 			<PropertyValue name="DeletedItemCount">45</PropertyValue>
 			<PropertyValue name="Item0.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
 			<PropertyValue name="Item0.ID">Microsoft.Office.Tools.Ribbon.RibbonBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
@@ -2109,6 +2109,7 @@
 								<AutoHideGroup IsVisible="True">
 									<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="2" IconResourcePackage="8e01ec3e-2928-4aa5-b720-e28c163818e6" Name="ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}" IsVisible="True" DockedHeight="537.6" DockedWidth="424.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="204.8"/>
 									<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="6651" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}" IsVisible="True" DockedHeight="537.6" DockedWidth="424.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="204.8"/>
+									<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="2" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}" IsVisible="True" DockedHeight="537.6" DockedWidth="298.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="204.8"/>
 								</AutoHideGroup>
 								<AutoHideGroup IsVisible="True">
 									<wm:ToolWindowView OnTopWhenLastInContext="False" ForceCreate="ForceCreate" IconIndex="1" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}" IsVisible="True" DockedHeight="384" DockedWidth="291.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="384" FloatingWidth="204.8"/>
@@ -2197,11 +2198,11 @@
 												</TabGroup>
 											</DockGroup>
 										</DockGroup>
-										<DockGroup Orientation="Vertical" IsVisible="True" DockedHeight="537.6" DockedWidth="298.8">
-											<TabGroup IsVisible="True" DockedHeight="537.6" DockedWidth="298.8">
+										<DockGroup Orientation="Vertical" DockedHeight="537.6" DockedWidth="298.8">
+											<TabGroup DockedHeight="537.6" DockedWidth="298.8">
 												<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="105" IconResourcePackage="8889e051-b7f9-4781-bb33-2a36a9bdb3a5" Name="ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}" DockedHeight="537.6" DockedWidth="298.8" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
 												<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="501" IconResourcePackage="4c82e17d-927e-42d2-8460-b473ac7df316" Name="ST:0:0:{75d09b86-471e-4b30-8720-362d13ad0a45}" DockedHeight="537.6" DockedWidth="298.8" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="2" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}" IsSelected="True" IsVisible="True" DockedHeight="537.6" DockedWidth="298.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="204.8"/>
+												<ViewBookmark Name="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}" DockedHeight="537.6" DockedWidth="298.8"/>
 												<ViewBookmark Name="ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}" DockedHeight="537.6" DockedWidth="298.8"/>
 												<ViewBookmark Name="ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}" DockedHeight="537.6" DockedWidth="298.8"/>
 												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}" DockedHeight="537.6" DockedWidth="298.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="204.8"/>
